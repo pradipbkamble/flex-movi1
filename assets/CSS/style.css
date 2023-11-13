@@ -57,12 +57,48 @@
 
 
 
+
+/* css on featuresection*/
+
+.featuresection{
+    flex-direction: column;
+}
+.left-section{
+    border: 2px solid gray;
+padding: 10px;
+
+}
+.posts{
+
+}
+.post{
+
+}
+.fig{
+
+}
+.head2{
+
+}
+.para1{
+width: 50%;
+}
+
 @media all and (min-width:1180px)  {
    .navbar1 ul{
         display: flex;
     }
     .navbar1 li{
      flex-grow: 1;
+    }
+    .featuresection{
+        flex-direction:row;
+    }
+    .left-section{
+        flex-grow: 0 0 1;
+    }
+    .right-section{
+        flex-basis: 0 0 420px;
     }
 }
 

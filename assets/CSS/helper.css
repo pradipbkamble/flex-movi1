@@ -2,6 +2,7 @@
     --primary-color:black;
     --sec-color:white;
     --tri-color:gold;
+    --bg-color:rgb(43, 95, 95);
 }
 ul{
     list-style: none;
